@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.container {
+  min-width: 600px;
+  width: 90%;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  padding: 0 10px;
+  // padding-top: 100px;
+  box-sizing: border-box;
+  // width: 90%;
+  // margin: auto;
+  // padding-top: 100px;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+}
+
+.title {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  // margin: 20px auto;
+  font-size: 30px;
+  margin: 10px auto 100px;
+  // margin-top: 30px;
+  max-width: 600px;
+}
+
+.left_content, .right_content {
+  flex-basis: 50%;
+}
+
+.left_content-container {
+  width: 50%;
+}
+
+.left_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0.5fr));
+  grid-gap: 2rem;
+}
+
+.right_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  color: black;
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}
+
+.right_content img {
+  margin: 2rem;
+  height: 200px;
+}
+
+.right_content h1 {
+  text-transform: uppercase;
+  font-size: bold;
+  letter-spacing: 1px;
+}
+
+// .card {
+//   width: 300px;
+//   background-color: #9edef9;
+//   border-radius: 1rem;
+//   box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+//   padding: 0 1.5rem;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   box-sizing: border-box;
+// }
+
+.card {
+  width: 250px;
+  height: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  &:hover {
+      // transform: scale(1.2);
+      .photo-pok {
+        transform: scale(0.8);
+      }
+  }
+
+  .photo-conteiner {
+  height: 200px;
+  margin: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+ .photo-pok {
+  max-height: 100%;
+  
+ }
+}
+
+// .photo-conteiner img {
+//     object-fit: cover;
+//     object-position: center;
+// }
+.poke-type-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.poke-type {
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #199eeb;
+  }
+ .poke-name {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5px;
+ }
+}
+
+
+
+.photo-conteiner img {
+    width: 200px;
+  }
+
+.abilities {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.group {
+  background-color: #199eeb;
+  color: white;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 8px;
+  border: 1px solid blue;
+}
+
+.base-stat {
+  margin-top: 2rem;
+}
+
+
+.btn-group button {
+  // display: inline;
+  outline: none;
+  border: none;
+  max-width: 300px;
+  // width: 150px;
+  padding: 1rem 10rem;
+  margin-bottom: 1rem;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: #199eeb;
+  border-radius: 8px;
+
+  
+}
+.loadBt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+.poke-info {
+  margin-top: 30%;
+  max-width: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 15px;
+  
+  &:hover {
+    .poke-info-photo {
+      transform: scale(1.2);
+    }
+  }
+}
