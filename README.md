@@ -6,7 +6,7 @@ By default, you could see 12 Pokemon Cards.
 With a click of the "Load More" button, another chunk of the list is loaded and displayed on the page.
 Pokemon details are displayed after clicking on the Pokemon Card.
 
-[Demo]()
+[Demo](https://serhiivovchenko.github.io/Pokemon_GO/)
 
 ## Technologies Used
 
