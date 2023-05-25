@@ -11,13 +11,7 @@
   padding-top: 100px;
   display: flex;
   padding: 0 10px;
-  // padding-top: 100px;
   box-sizing: border-box;
-  // width: 90%;
-  // margin: auto;
-  // padding-top: 100px;
-  // display: grid;
-  // grid-template-columns: 1fr 1fr;
 }
 
 .title {
@@ -25,10 +19,8 @@
   border: 1px solid black;
   justify-content: center;
   align-items: center;
-  // margin: 20px auto;
   font-size: 30px;
   margin: 10px auto 100px;
-  // margin-top: 30px;
   max-width: 600px;
 }
 
@@ -69,18 +61,6 @@
   letter-spacing: 1px;
 }
 
-// .card {
-//   width: 300px;
-//   background-color: #9edef9;
-//   border-radius: 1rem;
-//   box-shadow: 0 5px 5px rgba(0,0,0,0.5);
-//   padding: 0 1.5rem;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-//   box-sizing: border-box;
-// }
-
 .card {
   width: 250px;
   height: 300px;
@@ -89,7 +69,6 @@
   flex-direction: column;
   border-radius: 5px;
   &:hover {
-      // transform: scale(1.2);
       .photo-pok {
         transform: scale(0.8);
       }
@@ -110,16 +89,12 @@
  }
 }
 
-// .photo-conteiner img {
-//     object-fit: cover;
-//     object-position: center;
-// }
 .poke-type-conteiner {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
 }
+
 .poke-type {
     border: 1px solid black;
     padding: 5px 20px;
@@ -133,8 +108,6 @@
   margin-bottom: 5px;
  }
 }
-
-
 
 .photo-conteiner img {
     width: 200px;
@@ -163,13 +136,10 @@
   margin-top: 2rem;
 }
 
-
 .btn-group button {
-  // display: inline;
   outline: none;
   border: none;
   max-width: 300px;
-  // width: 150px;
   padding: 1rem 10rem;
   margin-bottom: 1rem;
   font-size: 30px;
@@ -177,15 +147,15 @@
   color: white;
   background-color: #199eeb;
   border-radius: 8px;
-
-  
 }
+
 .loadBt {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
   }
+
 .poke-info {
   margin-top: 30%;
   max-width: 300px;
